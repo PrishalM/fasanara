@@ -11,10 +11,21 @@ const Layout = () => {
   return (
     <>
       {" "}
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar collapseOnSelect expand="lg" bg="white" sticky="top">
         <Container>
-          <Navbar.Brand href="#home">Farsanara Capital</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Brand className="d-flex align-items-center" href="#home">
+            {" "}
+            <img
+              className="navbar-icon pe-3"
+              src="/icon_transparent.png"
+              alt="Farsanara Capital"
+            ></img>
+            Farsanara Capital
+          </Navbar.Brand>
+          <Navbar.Toggle
+            className="custom-toggler"
+            aria-controls="responsive-navbar-nav"
+          />
           <Navbar.Collapse
             id="responsive-navbar-nav"
             className="justify-content-end"
@@ -28,12 +39,30 @@ const Layout = () => {
         </Container>
       </Navbar>
       <Outlet />
-      <footer>
-        <p>© 2022 Footer Search. </p>
-        <p>
-          &nbsp; Created by <a href="https://github.com/PrishalM">Prishal</a>
-        </p>
-      </footer>
+      {/* Footer CTA */}
+      <Container fluid className="outer-footer-cta-container">
+        <Container fluid="md py-5">
+          <div>
+            <h1>Footer CTA</h1>
+          </div>
+        </Container>
+      </Container>
+      {/* Email subscription */}
+      <Container fluid className="outer-email-sub-container">
+        <Container fluid="md py-5">
+          <div>
+            <h1>Email sub</h1>
+          </div>
+        </Container>
+      </Container>
+      {/* Footer */}
+      <Container fluid className="outer-footer-container">
+        <Container fluid="md py-5">
+          <div>
+            <h1>Footer</h1>
+          </div>
+        </Container>
+      </Container>
     </>
   );
 };

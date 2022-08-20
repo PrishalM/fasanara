@@ -5,8 +5,6 @@
 @import "../node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
-$body-bg: #000;
-$body-color: rgb(250, 93, 93);
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
@@ -31,5 +29,354 @@ $body-color: rgb(250, 93, 93);
 @import "../node_modules/bootstrap/scss/utilities/api";
 
 // 8. Add additional custom code here
-header {
+
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+// Colours
+$Cyan-lightest: #bcc4c6;
+$Cyan-lighter: #7c8c90;
+$Cyan-light: #40575e;
+$Cyan: #032830;
+$Primary: #032830;
+$Cyan-dark: #002128;
+
+// Generic
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+}
+
+.key-features-title,
+.fund-title,
+.events-title,
+.insights-title,
+.podcasts-title,
+.media-title {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.key-features-sub-title,
+.insights-sub-title,
+.podcasts-sub-title,
+.media-sub-title {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.fund-btn-container,
+.insights-btn-container,
+.podcasts-btn-container,
+.media-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+.fund-btn,
+.insights-btn,
+.podcasts-btn,
+.media-btn {
+  border-radius: 50px !important;
+  background-color: transparent !important;
+  width: 220px;
+  height: 45px;
+  font-weight: 600 !important;
+}
+
+.fund-btn,
+.insights-btn,
+.media-btn {
+  border: $Cyan 1px solid !important;
+  color: $Cyan-dark !important;
+}
+
+.fund-btn:hover,
+.insights-btn:hover,
+.media-btn:hover {
+  background-color: $Cyan !important;
+  border: $Cyan 1px solid !important;
+  color: white !important;
+}
+
+.podcasts-btn {
+  border: white 1px solid !important;
+}
+
+.podcasts-btn:hover {
+  background-color: white !important;
+  color: $Cyan-dark !important;
+  border: white 1px solid !important;
+}
+
+// Navbar
+
+.navbar {
+  height: 100px;
+  box-shadow: 0px 10px 50px rgba(3, 40, 48, 0.25);
+}
+
+.navbar-brand {
+  font-family: "Noto Serif HK", serif;
+  font-size: 27px !important;
+}
+
+.navbar-icon {
+  height: 70px;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(3, 40, 48, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-collapse {
+  background-color: white;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+// Hero
+
+.outer-hero-container {
+  background-image: url(../public/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-container {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-sup-text {
+  color: $Cyan-lightest;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.hero-text {
+  color: white;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.hero-sub-text {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  width: 66%;
+}
+
+.cta-btn {
+  border-radius: 50px !important;
+  background-color: white !important;
+  border: $Cyan 1px solid !important;
+  color: $Cyan-dark !important;
+  width: 220px;
+  height: 45px;
+  font-weight: 600 !important;
+}
+
+.cta-btn:hover {
+  background-color: transparent !important;
+  border: white 1px solid !important;
+  color: white !important;
+}
+
+// Key features
+
+.outer-key-features-container {
+  background-color: white;
+}
+
+.key-feature-card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.key-feature-card {
+  width: 18rem;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+// Fund
+
+.outer-fund-container {
+  background-color: #f2f5f6;
+}
+
+.fund-container {
+  display: flex;
+}
+
+.fund-div-1,
+.fund-div-2 {
+  width: 50%;
+}
+
+// Events
+
+.outer-events-container {
+  background-color: $Cyan-lightest;
+}
+
+.event-card-container,
+.insights-card-container,
+.podcasts-card-container,
+.media-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-card,
+.insights-card,
+.podcasts-card,
+.media-card {
+  width: 25rem;
+  margin: 10px;
+}
+
+// Insights
+
+.outer-insights-container {
+  background-color: white;
+}
+
+// Podcasts
+
+.outer-podcasts-container {
+  background-color: $Cyan-light;
+}
+
+.podcasts-title,
+.podcasts-sub-title {
+  color: white;
+}
+
+// Media
+
+.outer-media-container {
+  background-color: white;
+}
+
+// Footer CTA
+
+.outer-footer-cta-container {
+  background-color: $Cyan-light;
+}
+
+// Email subscription
+
+.outer-email-sub-container {
+  background-color: $Cyan;
+}
+
+// Footer
+
+.outer-footer-container {
+  background-color: $Cyan-dark;
+}
+
+// -------------------------------------------------------------------------
+// Media query for smaller than md breakpoint
+
+@media screen and (max-width: 992px) {
+  // Generic
+  .key-features-title,
+  .fund-title,
+  .events-title,
+  .insights-title,
+  .podcasts-title,
+  .media-title {
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  .key-features-sub-title,
+  .insights-sub-title,
+  .podcasts-sub-title,
+  .media-sub-title {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  // Navbar
+
+  .navbar-brand {
+    flex-direction: column;
+    font-size: 14px !important;
+  }
+
+  .navbar-icon {
+    height: 50px;
+  }
+
+  // Hero
+
+  .hero-sup-text {
+    font-size: 24px;
+  }
+
+  .hero-text {
+    font-size: 40px;
+  }
+
+  .hero-sub-text {
+    font-size: 16px;
+
+    width: 100%;
+  }
+
+  // Three card carousel
+
+  .event-card-container,
+  .insights-card-container,
+  .podcasts-card-container,
+  .media-card-container {
+    display: flex;
+    justify-content: flex-start;
+
+    gap: 40px;
+    scrollbar-width: thin;
+    overflow-x: auto;
+    scroll-snap-type: inline mandatory;
+    list-style-type: none;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 60px;
+  }
+
+  .event-card,
+  .insights-card,
+  .podcasts-card,
+  .media-card {
+    min-width: 75% !important;
+  }
+
+  // Fund Strategies
+
+  .fund-container {
+    flex-direction: column;
+  }
+
+  .fund-div-1,
+  .fund-div-2 {
+    width: 100%;
+  }
 }
