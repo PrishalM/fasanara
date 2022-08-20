@@ -1,17 +1,32 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
-import { Outlet, NavLink } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import { Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
     <>
       {" "}
-      <header className="d-flex justify-content-center">
-        <h1>Github Search</h1>
-        <nav>
-          <NavLink to="/">Header</NavLink>
-        </nav>
-      </header>
+      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <Container>
+          <Navbar.Brand href="#home">Farsanara Capital</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse
+            id="responsive-navbar-nav"
+            className="justify-content-end"
+          >
+            <Nav>
+              <Nav.Link href="#Funds">Funds</Nav.Link>
+              <Nav.Link href="#Insights">Insights</Nav.Link>
+              <Nav.Link href="#Media">Media</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
       <Outlet />
       <footer>
         <p>© 2022 Footer Search. </p>
