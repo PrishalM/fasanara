@@ -39,42 +39,77 @@ const LandingPage = () => {
             </p>
             <div className="key-feature-card-container">
               <Card className="key-feature-card">
-                <Card.Img variant="top" src="" height="150px" width="275px" />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                <Card.Header className="key-feature-header">
+                  <img
+                    src="/feature-1.png"
+                    className="key-feature-icon"
+                    alt=""
+                  />
+                </Card.Header>
+                <Card.Body className="key-feature-body">
+                  <Card.Title>Investment Expertise </Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Our expertise spans a wide array of asset classes.
+                    Fasanara’s unique investment approach allows for greater
+                    independence and flexibility, promptly responding to
+                    opportunities as they arise.
                   </Card.Text>
                 </Card.Body>
               </Card>
+
               <Card className="key-feature-card">
-                <Card.Img variant="top" src="" height="150px" width="275px" />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                <Card.Header className="key-feature-header">
+                  <img
+                    src="/feature-2.png"
+                    className="key-feature-icon"
+                    alt=""
+                  />
+                </Card.Header>
+                <Card.Body className="key-feature-body">
+                  <Card.Title>Prudent Risk Management </Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Tailored-made risk management framework adapted to its
+                    unique investment strategy. A dedicated team of people
+                    overseas this part of the investment process.
                   </Card.Text>
                 </Card.Body>
               </Card>
+
               <Card className="key-feature-card">
-                <Card.Img variant="top" src="" height="150px" width="275px" />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                <Card.Header className="key-feature-header">
+                  <img
+                    src="/feature-3.png"
+                    className="key-feature-icon"
+                    alt=""
+                  />
+                </Card.Header>
+                <Card.Body className="key-feature-body">
+                  <Card.Title>Client Focus</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    We deliver a highly customized service to a diversified
+                    investor base, thus striving to fulfil clients’ needs with
+                    opportunistic vehicles and quantitative investment
+                    solutions, using state-of-the-art technologies.
                   </Card.Text>
                 </Card.Body>
               </Card>
+
               <Card className="key-feature-card">
-                <Card.Img variant="top" src="" height="150px" width="275px" />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                <Card.Header className="key-feature-header">
+                  <img
+                    src="/feature-4.png"
+                    className="key-feature-icon"
+                    alt=""
+                  />
+                </Card.Header>
+                <Card.Body className="key-feature-body">
+                  <Card.Title>Scaling up through technology </Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Through technology, we renew our methodology to best access
+                    to the most liquid asset classes. New Algos: quick to
+                    implement & useful in diversifying the portfolio strategies,
+                    managing the strategies portfolios through our ML
+                    infrastructure.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -89,7 +124,7 @@ const LandingPage = () => {
           <div>
             <h1 className="fund-title">Fund Strategies</h1>
             <div className="fund-container">
-              <div className="fund-div-1">Div1</div>
+              <div className="fund-div-1"></div>
               <div className="fund-div-2">
                 <p className="fund-description">
                   Fasanara Capital is an independent, owner-managed alternative
@@ -117,34 +152,63 @@ const LandingPage = () => {
             <h1 className="events-title">Recent & Upcoming Events</h1>
             <div className="event-card-container">
               <Card className="event-card">
-                <Card.Img variant="top" src="" height="150px" width="275px" />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  <Card.Title className="event-card-title">
+                    Digital Future. Use of Digital Technology To Build Resilient
+                    Portfolios.{" "}
+                  </Card.Title>
+                  <Card.Text className="event-card-text">
+                    60/40 Portfolios have been the safe harbour of institutional
+                    investors for decades, their steady state. For decades, they
+                    have exhibited much
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="event-card-footer d-flex justify-content-between">
+                  <p className="event-card-date">28 September 2022</p>
+                  <p className="event-card-read-more stretched-link">
+                    Read more
+                  </p>
+                </Card.Footer>
               </Card>
+
               <Card className="event-card">
-                <Card.Img variant="top" src="" height="150px" width="275px" />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  <Card.Title className="event-card-title">
+                    Digital Future. Use of Digital Technology To Build Resilient
+                    Portfolios.{" "}
+                  </Card.Title>
+                  <Card.Text className="event-card-text">
+                    60/40 Portfolios have been the safe harbour of institutional
+                    investors for decades, their steady state. For decades, they
+                    have exhibited much
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="event-card-footer d-flex justify-content-between">
+                  <p className="event-card-date">28 September 2022</p>
+                  <p className="event-card-read-more stretched-link">
+                    Read more
+                  </p>
+                </Card.Footer>
               </Card>
+
               <Card className="event-card">
-                <Card.Img variant="top" src="" height="150px" width="275px" />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  <Card.Title className="event-card-title">
+                    Digital Future. Use of Digital Technology To Build Resilient
+                    Portfolios.{" "}
+                  </Card.Title>
+                  <Card.Text className="event-card-text">
+                    60/40 Portfolios have been the safe harbour of institutional
+                    investors for decades, their steady state. For decades, they
+                    have exhibited much
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="event-card-footer d-flex justify-content-between">
+                  <p className="event-card-date">28 September 2022</p>
+                  <p className="event-card-read-more stretched-link">
+                    Read more
+                  </p>
+                </Card.Footer>
               </Card>
             </div>
           </div>

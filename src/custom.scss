@@ -44,7 +44,7 @@ $Cyan-dark: #002128;
 
 // Generic
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif !important;
   background-color: #fff;
 }
 
@@ -78,7 +78,8 @@ body {
 .fund-btn,
 .insights-btn,
 .podcasts-btn,
-.media-btn {
+.media-btn,
+.subscribe-btn {
   border-radius: 50px !important;
   background-color: transparent !important;
   width: 220px;
@@ -101,14 +102,32 @@ body {
   color: white !important;
 }
 
-.podcasts-btn {
+.podcasts-btn,
+.subscribe-btn {
   border: white 1px solid !important;
 }
 
-.podcasts-btn:hover {
+.podcasts-btn:hover,
+.subscribe-btn:hover {
   background-color: white !important;
   color: $Cyan-dark !important;
   border: white 1px solid !important;
+}
+
+.event-card-container,
+.insights-card-container,
+.podcasts-card-container,
+.media-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-card,
+.insights-card,
+.podcasts-card,
+.media-card {
+  width: 25rem;
+  margin: 10px;
 }
 
 // Navbar
@@ -141,6 +160,10 @@ body {
 
 .navbar-nav {
   text-align: center;
+}
+
+.nav-link {
+  font-size: 18px !important;
 }
 
 // Hero
@@ -205,13 +228,31 @@ body {
 .key-feature-card-container {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .key-feature-card {
   width: 18rem;
-  border-radius: 15px;
+  border-radius: 15px !important;
   margin: 10px;
+  background-color: #d9d9d9 !important;
+  border: 0 !important;
+}
+
+.key-feature-body {
+  background-color: $Cyan-lighter !important;
+  color: white !important;
+  border-radius: 0 0 15px 15px;
+  border: 1px $Cyan-lighter solid !important;
+}
+
+.key-feature-header {
+  display: flex;
+  justify-content: center;
+  border: 0 !important;
+}
+
+.key-feature-icon {
+  padding: 20px;
 }
 
 // Fund
@@ -222,11 +263,23 @@ body {
 
 .fund-container {
   display: flex;
+  padding-top: 20px;
 }
 
 .fund-div-1,
 .fund-div-2 {
   width: 50%;
+}
+
+.fund-div-1 {
+  background-image: url(../public/fund-desktop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fund-div-2 {
+  padding: 20px;
 }
 
 // Events
@@ -235,20 +288,39 @@ body {
   background-color: $Cyan-lightest;
 }
 
-.event-card-container,
-.insights-card-container,
-.podcasts-card-container,
-.media-card-container {
-  display: flex;
-  justify-content: space-between;
+.event-card {
+  background-color: $Cyan-lighter !important;
+  border: 0 !important;
+  border-radius: 15px !important;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-.event-card,
-.insights-card,
-.podcasts-card,
-.media-card {
-  width: 25rem;
-  margin: 10px;
+.event-card-title {
+  font-size: 16px !important;
+  font-weight: 600;
+}
+
+.event-card-text {
+  font-size: 14px !important;
+  font-weight: 400;
+}
+
+.event-card-footer {
+  font-size: 14px !important;
+  background-color: $Cyan-lighter !important;
+  border: 0 !important;
+  border-radius: 15px !important;
+  font-weight: 400;
+}
+
+.event-card-read-more {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.event-card-read-more:hover {
+  text-decoration: none;
 }
 
 // Insights
@@ -280,16 +352,154 @@ body {
   background-color: $Cyan-light;
 }
 
+.footer-cta-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+}
+
+.footer-cta-sub-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: $Cyan-lightest;
+}
+
+.footer-cta-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
 // Email subscription
 
 .outer-email-sub-container {
   background-color: $Cyan;
 }
 
+.email-sub-container {
+  display: flex;
+}
+
+.email-sub-div-1,
+.email-sub-div-2 {
+  width: 50%;
+}
+
+.email-sub-div-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.email-sub-title {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.email-sub-sub-title {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.email-privacy-policy {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.email-sub-label {
+  color: white;
+  font-size: 14px;
+}
+
+.email-sub-input {
+  border-radius: 50px !important;
+  background-color: transparent !important;
+  height: 45px;
+  font-weight: 600 !important;
+  color: white !important;
+}
+
+.email-sub-div-2-div-1 {
+  width: 60%;
+}
+
 // Footer
 
 .outer-footer-container {
   background-color: $Cyan-dark;
+}
+
+.footer-sitemap {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.footer-sitemap h5 {
+  font-size: 18px !important;
+  font-weight: 600;
+  padding-bottom: 10px !important;
+  cursor: pointer;
+}
+
+.footer-sitemap p {
+  font-size: 18px !important;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.footer-sitemap h5:hover,
+.footer-sitemap p:hover {
+  color: $Cyan-lightest;
+}
+
+.footer-sitemap-and-logo-social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-social-section {
+  font-family: "Noto Serif HK", serif;
+  font-size: 15px;
+  color: $Cyan-lightest;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-icon {
+  height: 125px;
+  margin-bottom: 10px;
+}
+
+.social-icons i {
+  color: $Cyan-lightest;
+  font-size: 2rem;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: white;
+}
+
+.footer-line {
+  color: $Cyan-lightest;
+}
+
+.footer-copyright {
+  color: $Cyan-lightest;
+  font-size: 12px;
+  text-align: center;
+
+  margin-bottom: 0;
+
+  padding-bottom: 1rem;
 }
 
 // -------------------------------------------------------------------------
@@ -369,6 +579,13 @@ body {
     min-width: 75% !important;
   }
 
+  // Key features
+
+  .key-feature-card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   // Fund Strategies
 
   .fund-container {
@@ -378,5 +595,50 @@ body {
   .fund-div-1,
   .fund-div-2 {
     width: 100%;
+  }
+
+  .fund-div-1 {
+    background-image: url(../public/fund-mobile.png);
+    height: 400px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
+  // Email subscription
+
+  .email-sub-container {
+    flex-direction: column;
+  }
+
+  .email-sub-div-1,
+  .email-sub-div-2 {
+    width: 100%;
+  }
+
+  .email-sub-div-2 {
+    flex-direction: column;
+  }
+  .email-sub-div-2-div-1 {
+    width: 100%;
+  }
+
+  .email-sub-div-2-div-2 {
+    padding-top: 15px;
+  }
+
+  // Footer
+
+  .footer-sitemap {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .footer-sitemap-and-logo-social {
+    flex-direction: column;
+  }
+
+  .footer-sitemap-item {
+    width: 30%;
+    padding-bottom: 20px;
   }
 }
