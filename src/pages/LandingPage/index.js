@@ -154,13 +154,13 @@ const LandingPage = () => {
               <Card className="event-card">
                 <Card.Body>
                   <Card.Title className="event-card-title">
-                    Digital Future. Use of Digital Technology To Build Resilient
-                    Portfolios.{" "}
+                    Private Credit EU Leadership Summit{" "}
                   </Card.Title>
                   <Card.Text className="event-card-text">
-                    60/40 Portfolios have been the safe harbour of institutional
-                    investors for decades, their steady state. For decades, they
-                    have exhibited much
+                    We are pleased to be speaking on a panel dealing with “A
+                    world turned upside down: Adjusting to the consequences of
+                    covid, inflation, interest rates, supply chain issues and
+                    the conflict in Ukraine.”
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="event-card-footer d-flex justify-content-between">
@@ -174,17 +174,15 @@ const LandingPage = () => {
               <Card className="event-card">
                 <Card.Body>
                   <Card.Title className="event-card-title">
-                    Digital Future. Use of Digital Technology To Build Resilient
-                    Portfolios.{" "}
+                    FTT DeFi 2022{" "}
                   </Card.Title>
                   <Card.Text className="event-card-text">
-                    60/40 Portfolios have been the safe harbour of institutional
-                    investors for decades, their steady state. For decades, they
-                    have exhibited much
+                    We were at the Fintech Talents DeFi event, where we
+                    discussed "What the cryptoverse means for lending".
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="event-card-footer d-flex justify-content-between">
-                  <p className="event-card-date">28 September 2022</p>
+                  <p className="event-card-date">12 July 2022</p>
                   <p className="event-card-read-more stretched-link">
                     Read more
                   </p>
@@ -194,17 +192,15 @@ const LandingPage = () => {
               <Card className="event-card">
                 <Card.Body>
                   <Card.Title className="event-card-title">
-                    Digital Future. Use of Digital Technology To Build Resilient
-                    Portfolios.{" "}
+                    LendIt Fintech 2022{" "}
                   </Card.Title>
                   <Card.Text className="event-card-text">
-                    60/40 Portfolios have been the safe harbour of institutional
-                    investors for decades, their steady state. For decades, they
-                    have exhibited much
+                    Attended the biggest USA’s leading event for innovation in
+                    financial services in New York, US.
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="event-card-footer d-flex justify-content-between">
-                  <p className="event-card-date">28 September 2022</p>
+                  <p className="event-card-date">25 - 26 July 2022</p>
                   <p className="event-card-read-more stretched-link">
                     Read more
                   </p>
@@ -255,14 +251,13 @@ const LandingPage = () => {
                 />
                 <Card.Body>
                   <Card.Title className="insight-card-title">
-                    Digital Future. Use of Digital Technology To Build Resilient
-                    Portfolios.{" "}
+                    The Market Economy In 2025: A Visualization Exercise{" "}
                   </Card.Title>
                   <Card.Text className="insight-card-text">
-                    60/40 Portfolios have been the safe harbour of institutional
-                    investors for decades, their steady state. For decades, they
-                    have exhibited much better risk-adjusted returns than both
-                    Equity
+                    To any market participant who has been more than 10 years in
+                    activity, financial markets are unrecognisable, lampooning
+                    the laws of physics: rates are negative as the asset class
+                    of
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="insights-card-footer stretched-link">
@@ -278,14 +273,13 @@ const LandingPage = () => {
                 />
                 <Card.Body>
                   <Card.Title className="insight-card-title">
-                    Digital Future. Use of Digital Technology To Build Resilient
-                    Portfolios.{" "}
+                    How To Navigate The Cliff Edge In Markets{" "}
                   </Card.Title>
                   <Card.Text className="insight-card-text">
-                    60/40 Portfolios have been the safe harbour of institutional
-                    investors for decades, their steady state. For decades, they
-                    have exhibited much better risk-adjusted returns than both
-                    Equity
+                    At a time in which bonds are no longer bonds but rather tax
+                    bills, and equities are as expensive as washing machines
+                    going on auction at 50 thousand dollars, what role is left
+                    to play for us rationale investors?
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="insights-card-footer stretched-link">
@@ -315,12 +309,11 @@ const LandingPage = () => {
                 />
                 <Card.Body>
                   <Card.Title className="podcasts-card-title">
-                    Digital Future. Use of Digital Technology To Build Resilient
-                    Portfolios.{" "}
+                    Resonance FM: The Naked Short Club{" "}
                   </Card.Title>
                   <Card.Text className="podcasts-card-text">
-                    60/40 Portfolios have been the safe harbour of institutional
-                    investors for decades, their steady
+                    Long overdue equity market correction. The correction
+                    moderate though; even he S&P at 3000 may not be surprising.
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="podcasts-card-footer stretched-link">
@@ -336,12 +329,11 @@ const LandingPage = () => {
                 />
                 <Card.Body>
                   <Card.Title className="podcasts-card-title">
-                    Digital Future. Use of Digital Technology To Build Resilient
-                    Portfolios.{" "}
+                    THE CURIOUS LEARNERS{" "}
                   </Card.Title>
                   <Card.Text className="podcasts-card-text">
-                    60/40 Portfolios have been the safe harbour of institutional
-                    investors for decades, their steady
+                    RECAP: We’re at the cusp of innovation.Financial markets are
+                    supposed to efficiently allocate to the real economy –
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="podcasts-card-footer stretched-link">
@@ -357,12 +349,11 @@ const LandingPage = () => {
                 />
                 <Card.Body>
                   <Card.Title className="podcasts-card-title">
-                    Digital Future. Use of Digital Technology To Build Resilient
-                    Portfolios.{" "}
+                    MACROVOICES{" "}
                   </Card.Title>
                   <Card.Text className="podcasts-card-text">
-                    60/40 Portfolios have been the safe harbour of institutional
-                    investors for decades, their steady
+                    RECAP: Bonds are defunct – they are no longer sensitive to
+                    inflation.
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="podcasts-card-footer stretched-link">
@@ -382,7 +373,9 @@ const LandingPage = () => {
         <Container fluid="md py-5">
           <div>
             <h1 className="media-title">Media Coverage</h1>
-            <p className="media-sub-title">Learn what makes us unique </p>
+            <p className="media-sub-title">
+              Find out what others are saying about us
+            </p>
             <div className="media-card-container">
               <Card className="media-card">
                 <Card.Img
@@ -392,12 +385,12 @@ const LandingPage = () => {
                 />
                 <Card.Body>
                   <Card.Title className="media-card-title">
-                    Digital Future. Use of Digital Technology To Build Resilient
-                    Portfolios.{" "}
+                    Funding News{" "}
                   </Card.Title>
                   <Card.Text className="media-card-text">
-                    60/40 Portfolios have been the safe harbour of institutional
-                    investors for decades, their steady
+                    Press release of our Fasanara VCIII announcement covered by
+                    The Block, the leading global information service about
+                    Crypto and Blockchain.
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="media-card-footer stretched-link">
@@ -413,12 +406,12 @@ const LandingPage = () => {
                 />
                 <Card.Body>
                   <Card.Title className="media-card-title">
-                    Digital Future. Use of Digital Technology To Build Resilient
-                    Portfolios.{" "}
+                    Interview{" "}
                   </Card.Title>
                   <Card.Text className="media-card-text">
-                    60/40 Portfolios have been the safe harbour of institutional
-                    investors for decades, their steady
+                    With Sifted EU we shared our thoughts and opinion on Crypto
+                    and why it's the best time to launch our new Fasanara VCIII
+                    fund.
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="media-card-footer stretched-link">
@@ -434,12 +427,10 @@ const LandingPage = () => {
                 />
                 <Card.Body>
                   <Card.Title className="media-card-title">
-                    Digital Future. Use of Digital Technology To Build Resilient
-                    Portfolios.{" "}
+                    Sky News{" "}
                   </Card.Title>
                   <Card.Text className="media-card-text">
-                    60/40 Portfolios have been the safe harbour of institutional
-                    investors for decades, their steady
+                    Sky News coverage of our new Fasanara VC III fund launch.
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="media-card-footer stretched-link">
