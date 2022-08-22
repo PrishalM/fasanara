@@ -14,7 +14,7 @@ const LandingPage = () => {
         <Container fluid="md" className="hero-container">
           <div className="hero-content">
             <h3 className="hero-sup-text">Investing in a</h3>
-            <h1 className="hero-text">Fasanara Future</h1>
+            <h1 className="hero-text">Digital Future</h1>
             <p className="hero-sub-text">
               Fasanara's unorthodox and unconventional portfolio construction
               and investment strategy is a response to today’s transformational
