@@ -1,3 +1,3 @@
-# Fasanara Capital
+# Digital Capital
 
 ## Task
