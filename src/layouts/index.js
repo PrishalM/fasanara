@@ -22,7 +22,7 @@ const Layout = () => {
               src="/icon_transparent.png"
               alt="Farsanara Capital"
             ></img>
-            Farsanara Capital
+            Fasanara Capital
           </Navbar.Brand>
           <Navbar.Toggle
             className="custom-toggler"
@@ -138,7 +138,7 @@ const Layout = () => {
                   src="/icon_transparent.png"
                   alt="Farsanara Capital"
                 ></img>
-                <p>Farsanara Capital</p>
+                <p>Fasanara Capital</p>
                 <div className="social-icons">
                   <i class="bi bi-linkedin"></i>
                   <i class="bi bi-twitter"></i>{" "}
@@ -149,7 +149,7 @@ const Layout = () => {
             <hr className="footer-line"></hr>
 
             <p className="footer-copyright">
-              All right reserved ©Farsanara Capital Ltd 2022. Farsanara Capital
+              All right reserved ©Fasanara Capital Ltd 2022. Fasanara Capital
               Limited, registered in England and Wales No. 07561210. Registered
               offices: 4th Floor 40 New Bond Street, London, W1S 2RX, United
               Kingdom.
