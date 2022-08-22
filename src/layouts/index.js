@@ -50,7 +50,7 @@ const Layout = () => {
             </h2>
             <p className="footer-cta-sub-title">
               Get in touch today and we will provide further information about
-              Fasanara’s Quant FinTech Investments
+              Digital’s Quant FinTech Investments
             </p>
             <div className="footer-cta-btn-container">
               <Button className="cta-btn">GET IN TOUCH</Button>{" "}
@@ -64,8 +64,8 @@ const Layout = () => {
           <div className="email-sub-div-1">
             <h2 className="email-sub-title">Stay up to date</h2>
             <p className="email-sub-sub-title">
-              Subscribe for the latest Fasanara Capital news and updates from
-              our blog. <br></br>By subscribing, you accept our{" "}
+              Subscribe for the latest Digital Capital news and updates from our
+              blog. <br></br>By subscribing, you accept our{" "}
               <span className="email-privacy-policy">privacy policy</span>.{" "}
             </p>
           </div>
