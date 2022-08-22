@@ -14,15 +14,15 @@ const LandingPage = () => {
         <Container fluid="md" className="hero-container">
           <div className="hero-content">
             <h3 className="hero-sup-text">Investing in a</h3>
-            <h1 className="hero-text">Digital Future</h1>
+            <h1 className="hero-text">Fasanara Future</h1>
             <p className="hero-sub-text">
-              Digital's unorthodox and unconventional portfolio construction and
-              investment strategy is a response to today’s transformational
+              Fasanara's unorthodox and unconventional portfolio construction
+              and investment strategy is a response to today’s transformational
               markets.{" "}
             </p>
             <p className="hero-sub-text">
-              Get in touch for further information about Digital’s Quant Fintech
-              Investments
+              Get in touch for further information about Fasanara’s Quant
+              Fintech Investments
             </p>
             <Button className="cta-btn">GET IN TOUCH</Button>{" "}
           </div>
@@ -49,10 +49,10 @@ const LandingPage = () => {
                 <Card.Body className="key-feature-body">
                   <Card.Title>Investment Expertise </Card.Title>
                   <Card.Text>
-                    Our expertise spans a wide array of asset classes. Digital’s
-                    unique investment approach allows for greater independence
-                    and flexibility, promptly responding to opportunities as
-                    they arise.
+                    Our expertise spans a wide array of asset classes.
+                    Fasanara’s unique investment approach allows for greater
+                    independence and flexibility, promptly responding to
+                    opportunities as they arise.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -127,11 +127,11 @@ const LandingPage = () => {
               <div className="fund-div-1"></div>
               <div className="fund-div-2">
                 <p className="fund-description">
-                  Digital Capital is an independent, owner-managed alternative
+                  Fasanara Capital is an independent, owner-managed alternative
                   asset management company authorized and regulated by the
                   Financial Conduct Authority. Based in London with alliance
                   offices in Milan, we offer access to a range of inventive
-                  multi-asset capacity-constrained niche products. Digital's
+                  multi-asset capacity-constrained niche products. Fasanara's
                   unorthodox portfolio construction and unconventional
                   investment strategy is a response to today’s transformational
                   markets.
@@ -228,8 +228,8 @@ const LandingPage = () => {
                 />
                 <Card.Body>
                   <Card.Title className="insight-card-title">
-                    Digital Future. Use of Digital Technology To Build Resilient
-                    Portfolios.{" "}
+                    Fasanara Future. Use of Fasanara Technology To Build
+                    Resilient Portfolios.{" "}
                   </Card.Title>
                   <Card.Text className="insight-card-text">
                     60/40 Portfolios have been the safe harbour of institutional
@@ -388,7 +388,7 @@ const LandingPage = () => {
                     Funding News{" "}
                   </Card.Title>
                   <Card.Text className="media-card-text">
-                    Press release of our Digital VCIII announcement covered by
+                    Press release of our Fasanara VCIII announcement covered by
                     The Block, the leading global information service about
                     Crypto and Blockchain.
                   </Card.Text>
@@ -410,7 +410,7 @@ const LandingPage = () => {
                   </Card.Title>
                   <Card.Text className="media-card-text">
                     With Sifted EU we shared our thoughts and opinion on Crypto
-                    and why it's the best time to launch our new Digital VCIII
+                    and why it's the best time to launch our new Fasanara VCIII
                     fund.
                   </Card.Text>
                 </Card.Body>
@@ -430,7 +430,7 @@ const LandingPage = () => {
                     Sky News{" "}
                   </Card.Title>
                   <Card.Text className="media-card-text">
-                    Sky News coverage of our new Digital VC III fund launch.
+                    Sky News coverage of our new Fasanara VC III fund launch.
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="media-card-footer stretched-link">
