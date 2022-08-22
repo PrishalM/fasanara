@@ -329,6 +329,46 @@ body {
   background-color: white;
 }
 
+.insights-card {
+  background-color: $Cyan-lightest !important;
+  border: 0 !important;
+  border-radius: 15px !important;
+  margin-bottom: 25px;
+}
+
+.insights-card-img {
+  height: 200px;
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.insights-card-footer {
+  text-decoration: underline;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  background-color: $Cyan-lightest !important;
+  border: 0 !important;
+  border-radius: 15px !important;
+}
+
+.insights-card-footer:hover {
+  text-decoration: none;
+}
+
+.insight-card-title,
+.podcasts-card-title,
+.media-card-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.insight-card-text,
+.podcasts-card-text,
+.media-card-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+
 // Podcasts
 
 .outer-podcasts-container {
@@ -340,12 +380,63 @@ body {
   color: white;
 }
 
+.podcasts-card {
+  background-color: $Cyan-lightest !important;
+  border: 0 !important;
+  border-radius: 15px !important;
+  margin-bottom: 25px;
+}
+
+.podcasts-card-img {
+  height: 200px;
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.podcasts-card-footer {
+  text-decoration: underline;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  background-color: $Cyan-lightest !important;
+  border: 0 !important;
+  border-radius: 15px !important;
+}
+
+.podcasts-card-footer:hover {
+  text-decoration: none;
+}
+
 // Media
 
 .outer-media-container {
   background-color: white;
 }
 
+.media-card {
+  background-color: $Cyan-lightest !important;
+  border: 0 !important;
+  border-radius: 15px !important;
+  margin-bottom: 25px;
+}
+
+.media-card-img {
+  height: 200px;
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.media-card-footer {
+  text-decoration: underline;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  background-color: $Cyan-lightest !important;
+  border: 0 !important;
+  border-radius: 15px !important;
+}
+
+.media-card-footer:hover {
+  text-decoration: none;
+}
 // Footer CTA
 
 .outer-footer-cta-container {
@@ -560,16 +651,17 @@ body {
   .media-card-container {
     display: flex;
     justify-content: flex-start;
-
-    gap: 40px;
+    gap: 0;
+    // gap:40;
     scrollbar-width: thin;
     overflow-x: auto;
     scroll-snap-type: inline mandatory;
     list-style-type: none;
-    padding-top: 25px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 60px;
+    padding: 0;
+    // padding-top: 25px;
+    // padding-bottom: 30px;
+    // padding-left: 30px;
+    // padding-right: 60px;
   }
 
   .event-card,

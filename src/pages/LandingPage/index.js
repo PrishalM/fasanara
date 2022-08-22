@@ -225,34 +225,72 @@ const LandingPage = () => {
             </p>
             <div className="insights-card-container">
               <Card className="insights-card">
-                <Card.Img variant="top" src="" height="150px" width="275px" />
+                <Card.Img
+                  variant="top"
+                  src="/random-image-1.png"
+                  className="insights-card-img"
+                />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  <Card.Title className="insight-card-title">
+                    Digital Future. Use of Digital Technology To Build Resilient
+                    Portfolios.{" "}
+                  </Card.Title>
+                  <Card.Text className="insight-card-text">
+                    60/40 Portfolios have been the safe harbour of institutional
+                    investors for decades, their steady state. For decades, they
+                    have exhibited much better risk-adjusted returns than both
+                    Equity
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="insights-card-footer stretched-link">
+                  read more
+                </Card.Footer>
               </Card>
+
               <Card className="insights-card">
-                <Card.Img variant="top" src="" height="150px" width="275px" />
+                <Card.Img
+                  variant="top"
+                  src="/random-image-2.png"
+                  className="insights-card-img"
+                />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  <Card.Title className="insight-card-title">
+                    Digital Future. Use of Digital Technology To Build Resilient
+                    Portfolios.{" "}
+                  </Card.Title>
+                  <Card.Text className="insight-card-text">
+                    60/40 Portfolios have been the safe harbour of institutional
+                    investors for decades, their steady state. For decades, they
+                    have exhibited much better risk-adjusted returns than both
+                    Equity
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="insights-card-footer stretched-link">
+                  read more
+                </Card.Footer>
               </Card>
+
               <Card className="insights-card">
-                <Card.Img variant="top" src="" height="150px" width="275px" />
+                <Card.Img
+                  variant="top"
+                  src="/random-image-4.png"
+                  className="insights-card-img"
+                />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  <Card.Title className="insight-card-title">
+                    Digital Future. Use of Digital Technology To Build Resilient
+                    Portfolios.{" "}
+                  </Card.Title>
+                  <Card.Text className="insight-card-text">
+                    60/40 Portfolios have been the safe harbour of institutional
+                    investors for decades, their steady state. For decades, they
+                    have exhibited much better risk-adjusted returns than both
+                    Equity
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="insights-card-footer stretched-link">
+                  read more
+                </Card.Footer>
               </Card>
             </div>
             <div className="insights-btn-container">
@@ -270,34 +308,66 @@ const LandingPage = () => {
             <p className="podcasts-sub-title">Listen to our latest Podcasts</p>
             <div className="podcasts-card-container">
               <Card className="podcasts-card">
-                <Card.Img variant="top" src="" height="150px" width="275px" />
+                <Card.Img
+                  variant="top"
+                  src="/random-image-3.png"
+                  className="podcasts-card-img"
+                />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  <Card.Title className="podcasts-card-title">
+                    Digital Future. Use of Digital Technology To Build Resilient
+                    Portfolios.{" "}
+                  </Card.Title>
+                  <Card.Text className="podcasts-card-text">
+                    60/40 Portfolios have been the safe harbour of institutional
+                    investors for decades, their steady
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="podcasts-card-footer stretched-link">
+                  listen
+                </Card.Footer>
               </Card>
+
               <Card className="podcasts-card">
-                <Card.Img variant="top" src="" height="150px" width="275px" />
+                <Card.Img
+                  variant="top"
+                  src="/random-image-2.png"
+                  className="podcasts-card-img"
+                />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  <Card.Title className="podcasts-card-title">
+                    Digital Future. Use of Digital Technology To Build Resilient
+                    Portfolios.{" "}
+                  </Card.Title>
+                  <Card.Text className="podcasts-card-text">
+                    60/40 Portfolios have been the safe harbour of institutional
+                    investors for decades, their steady
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="podcasts-card-footer stretched-link">
+                  listen
+                </Card.Footer>
               </Card>
+
               <Card className="podcasts-card">
-                <Card.Img variant="top" src="" height="150px" width="275px" />
+                <Card.Img
+                  variant="top"
+                  src="/random-image-1.png"
+                  className="podcasts-card-img"
+                />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  <Card.Title className="podcasts-card-title">
+                    Digital Future. Use of Digital Technology To Build Resilient
+                    Portfolios.{" "}
+                  </Card.Title>
+                  <Card.Text className="podcasts-card-text">
+                    60/40 Portfolios have been the safe harbour of institutional
+                    investors for decades, their steady
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="podcasts-card-footer stretched-link">
+                  listen
+                </Card.Footer>
               </Card>
             </div>
             <div className="podcasts-btn-container">
@@ -315,34 +385,66 @@ const LandingPage = () => {
             <p className="media-sub-title">Learn what makes us unique </p>
             <div className="media-card-container">
               <Card className="media-card">
-                <Card.Img variant="top" src="" height="150px" width="275px" />
+                <Card.Img
+                  variant="top"
+                  src="/random-image-4.png"
+                  className="media-card-img"
+                />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  <Card.Title className="media-card-title">
+                    Digital Future. Use of Digital Technology To Build Resilient
+                    Portfolios.{" "}
+                  </Card.Title>
+                  <Card.Text className="media-card-text">
+                    60/40 Portfolios have been the safe harbour of institutional
+                    investors for decades, their steady
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="media-card-footer stretched-link">
+                  read more
+                </Card.Footer>
               </Card>
+
               <Card className="media-card">
-                <Card.Img variant="top" src="" height="150px" width="275px" />
+                <Card.Img
+                  variant="top"
+                  src="/random-image-1.png"
+                  className="media-card-img"
+                />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  <Card.Title className="media-card-title">
+                    Digital Future. Use of Digital Technology To Build Resilient
+                    Portfolios.{" "}
+                  </Card.Title>
+                  <Card.Text className="media-card-text">
+                    60/40 Portfolios have been the safe harbour of institutional
+                    investors for decades, their steady
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="media-card-footer stretched-link">
+                  read more
+                </Card.Footer>
               </Card>
+
               <Card className="media-card">
-                <Card.Img variant="top" src="" height="150px" width="275px" />
+                <Card.Img
+                  variant="top"
+                  src="/random-image-2.png"
+                  className="media-card-img"
+                />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  <Card.Title className="media-card-title">
+                    Digital Future. Use of Digital Technology To Build Resilient
+                    Portfolios.{" "}
+                  </Card.Title>
+                  <Card.Text className="media-card-text">
+                    60/40 Portfolios have been the safe harbour of institutional
+                    investors for decades, their steady
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="media-card-footer stretched-link">
+                  read more
+                </Card.Footer>
               </Card>
             </div>
             <div className="media-btn-container">
